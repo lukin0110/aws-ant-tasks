@@ -24,8 +24,8 @@ The zip file (aws-ant-tasks-0.1-package.zip) on the left contains working exampl
  * Download aws-ant-tasks-0.1-package.zip and unzip it
  * Enter your AWS accessKey and secretKey in the build.xml
  * After your are able to execute the examples
- ** ant exampleCreate
- ** ant exampleDelete
+    * ant exampleCreate
+    * ant exampleDelete
 
 Setup in ant
 

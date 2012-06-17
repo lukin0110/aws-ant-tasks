@@ -1,0 +1,6 @@
+Todo
+s3: delete files
+cloudfront: disable, delete
+ec2: dont know yet ...
+The API
+http://docs.amazonwebservices.com/AWSJavaSDK/latest/javadoc/index.html

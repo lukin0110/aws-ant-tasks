@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<antlib>
+
+    <!--
+        S3 Tasks definitions
+    -->
+	<taskdef name="aws-s3-create" classname="com.github.awsanttasks.ant.s3.CreateTask"/>
+	<taskdef name="aws-s3-put" classname="com.github.awsanttasks.ant.s3.PutTask"/>
+	<taskdef name="aws-s3-delete-bucket" classname="com.github.awsanttasks.ant.s3.DeleteBucketTask"/>
+    <taskdef name="aws-s3-delete-files" classname="com.github.awsanttasks.ant.s3.DeleteFilesTask"/>
+
+    <!--
+        CloudFront Tasks definitions
+    -->
+	<taskdef name="aws-cloudfront-create" classname="com.github.awsanttasks.ant.cloudfront.CreateTask"/>
+	<taskdef name="aws-cloudfront-get" classname="com.github.awsanttasks.ant.cloudfront.GetTask"/>
+
+
+    <!--
+        Some utilities
+    -->
+	<taskdef name="generate-base36" classname="com.github.awsanttasks.ant.Base36Task"/>
+
+</antlib>
+
+
+
+
